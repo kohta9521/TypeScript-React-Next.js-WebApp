@@ -5,3 +5,11 @@ const user: {name: string; age: number} = {
 
 console.log(user.name)
 console.log(user.age)
+
+
+function printName(obj: {firstName: string; lastName?: string }) {
+    // ...
+}
+
+printName({ firstName: "Kohta"})
+printName({ firstName: "Kohta", lastName: "Kochi"})
